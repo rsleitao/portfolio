@@ -1,4 +1,15 @@
-h1{
+body{
+    background-color: black;
+}
+
+.titulo{
     font-family: 'Permanent Marker';
     font-weight: bold;
+    color: white;
+}
+
+.sub_titulo{
+    font-family: 'Indie Flower';
+    font-weight: bold;
+    color: white;
 }
