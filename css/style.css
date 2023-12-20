@@ -1,14 +1,26 @@
 body{
-    background-color: black;
+    background-color:rgb(30,31,26);
     margin: 0px auto;
     padding: 0px;
 }
+
+.menu{
+    background-color:rgb(30,40,34);
+}
+
+.txt_code_w{
+    color: rgb(63, 68, 65);
+}
+
+
 
 .titulo{
     font-family: 'Permanent Marker';
     font-weight: bold;
     color: white;
 }
+
+
 
 .sub_titulo{
     font-family: 'Indie Flower';
