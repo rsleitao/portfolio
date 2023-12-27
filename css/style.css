@@ -15,7 +15,7 @@ body {
     overflow-y: auto;
 }
 
-.menu-vertical a {
+.menu-vertical .nav-link {
     text-decoration: none;
     color: #ffffff; /* Cor alterada para melhor contraste */
     display: block;
@@ -23,7 +23,7 @@ body {
     transition: background-color 0.3s; /* Transição ao passar o mouse */
 }
 
-.menu-vertical a:hover {
+.menu-vertical .nav-link:hover {
     background-color: #4d4d4d; /* Efeito hover nos links */
 }
 
@@ -41,6 +41,7 @@ body {
 
 .icon-rs:hover {
     transform: scale(1.3); /* Aumenta o tamanho do ícone */
+    
 }
 
 .txt_code_w {
@@ -78,10 +79,15 @@ body {
     color: white;
 }
 
+P,h2{
+    font-weight: bold;
+    color: white;
+}
+
 .img-profile {
     height: 140px;
-    width: 140px; /* Largura definida para manter a proporção */
-    border: 1px solid red;
+    width: 140px; 
+    border: 5px solid rgb(255, 255, 255);
     border-radius: 50%;
 }
 
