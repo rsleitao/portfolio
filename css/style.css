@@ -1,57 +1,96 @@
-body{
-    background-color:rgb(30,31,26);
-    margin: 0px auto;
-    padding: 0px;
+body {
+    background-color: rgb(30,31,26);
+    margin: 0 auto;
+    padding: 0;
     height: 100%;
+    display: flex;
 }
 
-.menu{
-    background-color:rgb(91, 97, 93);
-    
-    
-    
+.menu-vertical {
+    width: 200px;
+    background-color: rgb(68, 73, 70);
+    padding: 0;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+}
+
+.menu-vertical a {
+    text-decoration: none;
+    color: #ffffff; /* Cor alterada para melhor contraste */
+    display: block;
+    margin-bottom: 10px;
+    transition: background-color 0.3s; /* Transição ao passar o mouse */
+}
+
+.menu-vertical a:hover {
+    background-color: #4d4d4d; /* Efeito hover nos links */
+}
+
+.content {
+    margin-left: 220px; /* Espaço para o menu vertical + margem */
+    padding: 20px;
 }
 
 .icon-rs {
     width: 40px;
     padding: 0px 2px;
     margin: 0px;
-    transition: transform 0.3s ease; /* Adiciona uma transição suave */
-  
+    transition: transform 0.3s ease; /* Transição suave */
 }
 
 .icon-rs:hover {
     transform: scale(1.3); /* Aumenta o tamanho do ícone */
 }
 
-
-
-
-
-.txt_code_w{
+.txt_code_w {
     color: rgb(63, 68, 65);
 }
 
-.menus{
-    display:inline-block;
+.menus {
+    display: inline-block;
     width: 100%;
-    
+    text-align: center;
     text-decoration: none;   
-    margin: 10px 0px;
+    margin: 10px auto;
     padding: 5px;
-
+    background-color: #7e7e7e;
+    transition: background-color 0.3s; /* Transição ao passar o mouse */
 }
 
-.titulo{
+.menus:hover {
+    background-color: #595959; /* Efeito hover nos itens do menu */
+}
+
+.menu {
+    height: 30%;
+}
+
+.titulo {
     font-family: 'Permanent Marker';
     font-weight: bold;
     color: white;
 }
 
-
-
-.sub_titulo{
+.sub_titulo {
     font-family: 'Indie Flower';
     font-weight: bold;
     color: white;
+}
+
+.img-profile {
+    height: 140px;
+    width: 140px; /* Largura definida para manter a proporção */
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-vertical {
+        width: 150px;
+    }
+
+    .content {
+        margin-left: 170px;
+    }
 }
