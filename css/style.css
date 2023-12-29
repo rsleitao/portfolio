@@ -134,18 +134,12 @@ hr{
 }
 
 @media screen and (max-width: 768px) {
-    .menu-vertical {
-        width: 150px;
-    }
-
+    
     .social-media-links {
         margin-bottom: 10%;
     }
 
-    .content {
-        margin-left: 151px;
-    }
-
+    
     .cards {
         width: 100%; 
         margin: 10px 0; 
@@ -157,6 +151,42 @@ hr{
 
     .nav-item {
         margin: 5px 0; 
+    }
+
+    .menu-vertical {
+        width: 0;
+        overflow: hidden;
+        transition: width 0.3s;
+    }
+
+    .menu-vertical.show {
+        width: 200px;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+
+    .img-profile {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .menu-toggle {
+        display: none;
+        cursor: pointer;
+        padding: 5px;
+        background-color: #343a40;
+        color: white;
+        text-align: center;
+    }
+    
+    .menu-toggle .bar {
+        display: block;
+        width: 20px;
+        height: 2px;
+        margin: 3px auto;
+        background-color: white;
     }
 }
 
