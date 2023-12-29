@@ -138,8 +138,25 @@ hr{
         width: 150px;
     }
 
+    .social-media-links {
+        margin-bottom: 10%;
+    }
+
     .content {
         margin-left: 151px;
+    }
+
+    .cards {
+        width: 100%; 
+        margin: 10px 0; 
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        margin: 5px 0; 
     }
 }
 
@@ -149,4 +166,5 @@ hr{
         margin: 0 auto;
     }
 }
+
 
