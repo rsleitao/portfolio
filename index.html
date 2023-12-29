@@ -12,13 +12,14 @@
 <body>
     <nav class="menu-vertical navbar-dark bg-dark py-2  d-flex flex-column justify-content-around gap-5">
         <a class="navbar-brand" href="#">
-            <img src="imagens/instagram.png" alt="Renato" class="img-profile d-block mx-auto img-fluid">
+            <img id="imagem-perfil" src="imagens/renato.jpg" alt="Renato" class="img-profile d-block mx-auto img-fluid">
         </a>
+        
         <ul class="navbar-nav text-center mb-5">
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#topo">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="#sobre">Quem Sou</a></li>
             <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contactos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contactos">Contactos</a></li>
         </ul>
         <div class="social-media-links d-flex justify-content-center gap-sm-3 p-2 gap-2">
             <a href="#"><img class="icon-rs" src="imagens/instagram.png" alt="Instagram"></a>
@@ -29,21 +30,25 @@
 
     <div class="content px-5">
         <header class="my-5 text-center">
-            <h1 class="titulo">O Meu Portefólio</h1>
-            <p class="sub_titulo">Web Developer Junior Fullstack</p>
+            <h1 id="topo" class="titulo">O Meu Portefólio</h1>
+            <h3 class="sub_titulo">Web Developer Junior Fullstack</h3>
             <p>Entusiasta em tecnologia e inovação, sempre em busca de novos desafios.</p>
         </header>
 
         <main class="container">
             <section id="sobre" class="mb-5">
                 <h2>Quem Sou</h2>
+                
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates sequi consequatur tempore nam nihil fuga maxime, sit, quam est laborum, molestiae quia facere distinctio temporibus nostrum unde atque amet adipisci!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates sequi consequatur tempore nam nihil fuga maxime, sit, quam est laborum, molestiae quia facere distinctio temporibus nostrum unde atque amet adipisci!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates sequi consequatur tempore nam nihil fuga maxime, sit, quam est laborum, molestiae quia facere distinctio temporibus nostrum unde atque amet adipisci!
+                    Entusiasta em tecnologia e inovação, sempre em busca de novos desafios.
                 </p>
                 
             </section>
-            <section id="projetos" class="mb-5">
-                <h2>Projetos</h2>
+
+            <hr>
+
+            <section id="projetos" class="my-5">
+                <h2 class="py-5">Projetos</h2>
                 <div class="d-flex flex-wrap justify-content-around gap-4">
                     <div class="cards">
                         <h1>Website 1</h1>
@@ -57,9 +62,18 @@
                     <div class="cards">
                         <h1>Website 4</h1>
                     </div>
+                    <div class="cards">
+                        <h1>Website 5</h1>
+                    </div>
+                    <div class="cards">
+                        <h1>Website 6</h1>
+                    </div>
                 </div>
                 
             </section>
+
+            <hr>
+
             <section id="about" class="mb-5">
                 <h2>Quem Sou</h2>
                 <p>
